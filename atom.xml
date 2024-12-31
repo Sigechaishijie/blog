@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-12-31T08:31:08.863Z</updated>
+  <updated>2024-12-31T12:32:03.658Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Happy New Year!</title>
+    <link href="http://example.com/posts/3.html"/>
+    <id>http://example.com/posts/3.html</id>
+    <published>2024-12-31T16:00:00.000Z</published>
+    <updated>2024-12-31T12:32:03.658Z</updated>
+    
+    <content type="html"><![CDATA[<p>祝各位，新年快乐！</p><p>To all of you, happy new year!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;祝各位，新年快乐！&lt;/p&gt;
+&lt;p&gt;To all of you, happy new year!&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>快速搭建出一个基于 Gmeek 的博客</title>
