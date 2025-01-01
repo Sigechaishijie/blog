@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-12-31T12:32:03.658Z</updated>
+  <updated>2025-01-01T00:36:25.670Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/posts/3.html"/>
     <id>http://example.com/posts/3.html</id>
     <published>2024-12-31T16:00:00.000Z</published>
-    <updated>2024-12-31T12:32:03.658Z</updated>
+    <updated>2025-01-01T00:36:25.670Z</updated>
     
     <content type="html"><![CDATA[<p>祝各位，新年快乐！</p><p>To all of you, happy new year!</p>]]></content>
     
@@ -35,6 +35,10 @@
     
     
     
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
@@ -43,7 +47,7 @@
     <link href="http://example.com/posts/2.html"/>
     <id>http://example.com/posts/2.html</id>
     <published>2024-12-31T08:26:39.000Z</published>
-    <updated>2024-12-31T08:31:08.863Z</updated>
+    <updated>2025-01-01T00:36:03.711Z</updated>
     
     <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="你需要"><a href="#你需要" class="headerlink" title="你需要"></a>你需要</h2><p><a href="https://www.dogfight360.com/blog/686/">Steam Community 302</a> 加速 GitHub<br>一双灵巧的手和一个聪明的大脑<br>一个 GitHub 账户，若没有，注册即可</p><h1 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h1><h2 id="第一步：Fork-仓库"><a href="#第一步：Fork-仓库" class="headerlink" title="第一步：Fork 仓库"></a>第一步：Fork 仓库</h2><p>前往 <a href="https://kkgithub.com/Meekdai/Gmeek/">Gmeek 博客框架的 GitHub 仓库</a><br>点击 Fork，弹出的框框里随便取一个名字，如果你要使用自定义域名的话，请使用你的用户名 + github.io 比如我就叫 Sigechaishijie.github.io</p><h2 id="第二步：启用-Pages"><a href="#第二步：启用-Pages" class="headerlink" title="第二步：启用 Pages"></a>第二步：启用 Pages</h2><p>前往项目主页，点击 Settings -&gt; Pages -&gt; Build and deployment -&gt; Source，将选项改成 GitHub Actions</p><h1 id="如何写作"><a href="#如何写作" class="headerlink" title="如何写作"></a>如何写作</h1><p>你可以点击 GitHub 仓库主页中的 Issues，随后根据提示操作即可，注意，在写作完成后，至少选择一个 Label，使用 Markdown 语法写作，关于 Markdown 的使用教程，我会另外再出一个博文</p><h1 id="如果想使用自定义域名"><a href="#如果想使用自定义域名" class="headerlink" title="如果想使用自定义域名"></a>如果想使用自定义域名</h1><p>获取一个域名，然后在仓库设置里将仓库的域名绑定到你的域名上，随后在你的 DNS 服务里将你的仓库地址 CNAME 到你的域名上，然后在仓库里的 config.json 加上 “homeUrl” 字段，例如</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-attr">&quot;homeUrl&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;http://blog.meekdai.com&quot;</span> <span class="hljs-comment">// 如果不是最后一行的话需要加上半角逗号</span><br></code></pre></td></tr></table></figure><h1 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h1><p>修改 config.json 可以达到主页自定义的目的，但是想要让修改生效，需要通过Actions -&gt; build Gmeek -&gt; Run workflow -&gt; 里面的按钮全局重新生成一次<br>通过 <a href="https://github.com/https://%E4%BD%A0%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D.github.io/%E4%BB%93%E5%BA%93%E5%90%8D">https:&#x2F;&#x2F;你的用户名.github.io&#x2F;（如果没有使用用户名 + github.io，那么增加仓库名）</a> 可以访问你的博客</p>]]></content>
     
@@ -55,6 +59,12 @@
     
     
     
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Gmeek" scheme="http://example.com/tags/Gmeek/"/>
     
   </entry>
   
@@ -63,7 +73,7 @@
     <link href="http://example.com/posts/1.html"/>
     <id>http://example.com/posts/1.html</id>
     <published>2024-12-29T00:59:40.000Z</published>
-    <updated>2024-12-29T01:00:57.734Z</updated>
+    <updated>2025-01-01T00:41:59.265Z</updated>
     
     <content type="html"><![CDATA[<p>Hexo 博客弄好了，迁移博客 ing……</p>]]></content>
     
@@ -76,6 +86,12 @@
     
     
     
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
